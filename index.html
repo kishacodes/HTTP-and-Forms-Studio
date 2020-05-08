@@ -7,15 +7,14 @@
 
 <body>
   <form id="searchForm" method="GET" action="#">
-    <label>Search Term <input type="text" name="q" id="searchTerm" /> </label>
+    <label> <input type="text" name="q" id="searchTerm" /> </label>
     <label
       >Google
       <input
         type="radio"
         name="engine"
-        value="google"
-        class="rr"
-        value="https://www.google.com"
+        class="ll"
+        value="https://www.google.com/search"
       />
     </label>
     <label
@@ -23,7 +22,6 @@
       <input
         type="radio"
         name="engine"
-        value="duckDuckGo"
         class="rr"
         value="https://www.duckduckgo.com"
       />
@@ -32,7 +30,6 @@
       >Bing<input
         type="radio"
         name="engine"
-        value="bing"
         class="rr"
         value="https://www.bing.com/search"
       />
@@ -42,12 +39,12 @@
       <input
         type="radio"
         name="engine"
-        value="ask"
         class="rr"
         value="https://www.ask.com/web"
       />
     </label>
 
+    <button id="go">Go!</button>
     <!-- TODO: add form elements -->
   </form>
 </body>
